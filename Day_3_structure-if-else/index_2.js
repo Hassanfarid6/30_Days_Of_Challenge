@@ -1,5 +1,4 @@
 // Activity 2: Nested if-else Statements
-
 // Task#3
 
 a = 11

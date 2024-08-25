@@ -2,23 +2,7 @@
 
 // // Task #7
 
-
-// let Year = 500
-// if (Year % 4 == 0){
-//     if(Year % 100 != 0){
-//         console.log("Is a leap year");
-//     }else if(Year % 400 != 0){
-//         console.log("Is a leap years");
-//     }else {
-//         console.log("is not leap years");
-
-//     }
-// }else {
-//     console.log("is not leap year");
-    
-// }
-
-let year = 2024
+let year = 2018
 // let leapYear
 
 if (year%4==0) {

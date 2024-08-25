@@ -1,5 +1,4 @@
 // Activity #3: Switch case
-
 // Task #4
 
 let a = 10;
