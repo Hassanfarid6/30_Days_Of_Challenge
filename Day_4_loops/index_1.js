@@ -1,6 +1,4 @@
-
 // Day_4: loops
-
 
 // Activity_1: for loop
 

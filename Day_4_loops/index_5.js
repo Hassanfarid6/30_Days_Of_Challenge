@@ -1,12 +1,8 @@
-
 // Day_4: loops
-
 
 // Activity_5: loop control Statement
 
 // Task #8
-
-
 
 
 for (let h = 1; h <= 10; h++){
