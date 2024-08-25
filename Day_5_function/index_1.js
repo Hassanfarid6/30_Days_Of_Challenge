@@ -1,6 +1,4 @@
-
 // Day_5_Function
-
 
 // Activity #1 Function Declaration
 
