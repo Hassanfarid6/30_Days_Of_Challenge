@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity_5</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            background-color: cornflowerblue;
+        }
+        button {
+            border: none;
+            padding: 20px 20px;
+            background-color: rgb(52, 43, 226);
+            color: white;
+            border-radius: 20px;
+            cursor: grabbing;
+        }
+        #box {
+            border: 15px solid red;
+            height: 200px;
+            width: 200px;
+            transition: border-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <p id="new-para">This is a paragraph</p>
+
+    <button class="para">Click Here</button>
+
+    <div id="box"></div>
+
+    <script>
+        // Task_9
+        const changpara = document.querySelector('.para')
+        
+        changpara.addEventListener('click', function (e){
+            e.preventDefault()
+
+            const newPara = document.getElementById('new-para')
+            newPara.textContent = 'The text has been changed.'
+        })
+        
+        // Task_10
+        const box = document.getElementById('box')
+
+        box.addEventListener('mouseover', function (){
+
+        box.style.color = 'red'
+        box.style.background = 'yellow'
+        
+        })
+
+        box.addEventListener('mouseout', function (){
+
+            box.style.color = 'black' 
+            box.style.background = 'white'
+        
+        })
+
+
+    </script>
+</body>
+</html>

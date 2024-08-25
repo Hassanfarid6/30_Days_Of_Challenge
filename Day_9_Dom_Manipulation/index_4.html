@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity_4</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            background-color: rgb(220, 230, 139) ;
+        }
+        img {
+            border: 26px solid rgb(98, 171, 95);
+        }
+        
+        button {
+            border: none;
+            background-color: rgb(0, 97, 252);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .highlight {
+            background-color: rgb(180, 101, 101);
+            font-weight: bold;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <img id="old_img" height="200px" width="200px" alt="old-img" src="https://th.bing.com/th/id/R.a2e8b18cc98c7b820147bd1f47729cfd?rik=7cnEa8lhmavF4w&riu=http%3a%2f%2fmedia.giphy.com%2fmedia%2fO58wTsoBqBqMw%2fgiphy.gif&ehk=0N07vChhkBE5nxm8WZmW3eov3Y6guW0lRTcBArRKUMQ%3d&risl=&pid=ImgRaw&r=0">
+    
+    <button onclick="myfunc()">Click Here</button>
+
+    <p class="para">This is paragraph</p>
+
+    <button onclick="addClass()">Add Class</button>
+
+    <button onclick="removeClass()">Remove Class</button>
+    <script>
+        // Task_7
+        function myfunc(){
+            let newImg = document.getElementById('old_img')
+            newImg.src = 'new-img.gif'
+            newImg.style.height = '200px'
+            newImg.style.width = '200px'
+            newImg.alt = "New image"
+        }
+        
+        // Task_8
+        function addClass(){
+            let add = document.querySelector('.para')
+            add.classList.add('highlight')
+        }
+
+        function removeClass(){
+            let remove = document.querySelector('.para')
+            remove.classList.remove('highlight')
+        }
+    </script>
+</body>
+</html>

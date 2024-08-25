@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity_3</title>
+</head>
+<body>
+    
+    <h1 id="para">This is my first paragraph</h1>
+
+    <ul id="list">
+        <li>Milk</li>
+        <li>Tea</li>
+        <li>coffee</li>
+    </ul>
+
+    <script>
+        // Task_5
+        let removepara = document.getElementById('para')
+        removepara.remove()
+        
+        
+        // Task_6
+        const ulList = document.getElementById('list')
+        ulList.removeChild(ulList.lastElementChild)
+    </script>
+</body>
+</html>
