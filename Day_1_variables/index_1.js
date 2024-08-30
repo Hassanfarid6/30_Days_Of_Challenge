@@ -1,8 +1,5 @@
-
-
 // Activity_1 Variable Decleration
 // Task_1: Decleration a variable using var
-
 
 var a = 7
 var b = 90
@@ -24,7 +21,6 @@ console.log(name1);
 const booleans = true
 
 console.log(booleans);
-
 
 
 // Activity_3 Data types
