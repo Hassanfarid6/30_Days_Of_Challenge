@@ -15,6 +15,7 @@ if (a > 0) {
 
 // Task2
 
+
 let age = 22;
 
 if (age >= 18) {
