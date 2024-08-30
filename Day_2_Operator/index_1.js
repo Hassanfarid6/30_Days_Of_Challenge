@@ -72,7 +72,6 @@ console.log(e === f) //? Strick Equality
 // !!! In Loose Equality only both data need equal; eg: 30 and "30"
 
 
-
 // ! Activity 4: Logical Operators
 
 //* Task 11
